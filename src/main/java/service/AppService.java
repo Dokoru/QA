@@ -13,9 +13,6 @@ public class AppService {
 
     private int currentUserID = -1;
 
-    /*public AppService() throws SQLException, ClassNotFoundException {
-    }*/
-
     public boolean authorization(String login, String password) {
         currentUserID = userService.authorization(login, password);
         return currentUserID > -1;

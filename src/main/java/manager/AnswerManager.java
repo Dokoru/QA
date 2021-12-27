@@ -8,9 +8,6 @@ import java.sql.*;
 public class AnswerManager {
     public final Connection connection = DBConnection.getDBConnection();
 
-//    public AnswerManager() throws SQLException, ClassNotFoundException {
-//    }
-
     public int addAnswer(Answer answer) throws SQLException {
         int question_id = answer.questionID;
         int owner_id = answer.ownerID;

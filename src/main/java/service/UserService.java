@@ -8,9 +8,6 @@ import java.sql.SQLException;
 public class UserService {
     private final UserManager userManager = new UserManager();
 
-//    public UserService() throws SQLException, ClassNotFoundException {
-//    }
-
     public int authorization(String login, String password) {
         ResultSet rs = null;
         try {

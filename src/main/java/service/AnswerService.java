@@ -12,9 +12,6 @@ import java.util.List;
 public class AnswerService {
     private final AnswerManager answerManager = new AnswerManager();
 
-//    public AnswerService() throws SQLException, ClassNotFoundException {
-//    }
-
     public Answer addAnswer(int question_id, int owner_id, String text) {
         int id = -1;
         Answer answer = new Answer(id, question_id, owner_id, text);

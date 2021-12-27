@@ -9,9 +9,6 @@ public class QuestionManager {
 
     public final Connection connection = DBConnection.getDBConnection();
 
-//    public QuestionManager() throws SQLException, ClassNotFoundException {
-//    }
-
     public int addQuestion(Question question) throws SQLException {
         int ownerID = question.ownerID;
         String topic = question.topic;

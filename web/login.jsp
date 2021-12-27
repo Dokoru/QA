@@ -11,10 +11,10 @@
     <div>
       <h1>Вход</h1>
       <div>
-        <p><input name="login" type="text"></p>
+        <p>Логин: <input name="login" type="text"></p>
       </div>
       <div>
-        <p><input name="password" type="password"></p>
+        <p>Пароль: <input name="password" type="password"></p>
       </div>
     </div>
     <div>

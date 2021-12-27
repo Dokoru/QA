@@ -11,9 +11,6 @@ import java.util.List;
 public class QuestionService {
     private final QuestionManager questionManager = new QuestionManager();
 
-//    public QuestionService() throws SQLException, ClassNotFoundException {
-//    }
-
     public Question addQuestion(int owner_id, String topic, String text) {
         int id = -1;
         try {
